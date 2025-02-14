@@ -1,0 +1,23 @@
+{
+  "name": "wip-vue3-ts-lint",
+  "version": "1.0.0",
+  "description": "B",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint . --fix --ignore-path .gitignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint-community/eslint-utils": "^4.4.1",
+    "@stylistic/eslint-plugin": "^3.1.0",
+    "@vue/eslint-config-typescript": "^14.4.0",
+    "eslint": "^9.20.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "eslint-plugin-vuetify": "^2.5.1",
+    "vue-eslint-parser": "^9.4.3"
+  }
+}
