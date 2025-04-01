@@ -10,7 +10,7 @@ Basic shared lint config for TS, Vue 3 and vuetify
 
 2. Update your `.eslintrc.config.js` file to include the configuration:
   ```javascript
-import wipLint from 'wip-vue3-ts-lint'
+import wipLint from 'wip-ts-vue3-vuetify-lint'
 
 export default [
   ...wipLint,
