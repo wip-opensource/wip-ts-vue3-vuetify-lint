@@ -28,6 +28,15 @@ export default defineConfigWithVueTs(
       'vue/script-indent': 'off',
       'vue/no-template-shadow': ['error', { allow: ['props'] }],
       'vue/multi-word-component-names': 'off',
+      'no-unused-vars': [
+        'error',
+        {
+          args: 'all',
+          varsIgnorePattern: '^_',
+          argsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+        },
+      ],
       '@typescript-eslint/no-unused-vars': [
         'error',
         {
