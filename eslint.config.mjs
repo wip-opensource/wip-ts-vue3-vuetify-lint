@@ -1,6 +1,6 @@
 import pluginVue from 'eslint-plugin-vue'
-import vuetify from 'eslint-plugin-vuetify'
 import stylistic from '@stylistic/eslint-plugin'
+import vuetify from 'eslint-config-vuetify'
 
 import {
   defineConfigWithVueTs,
@@ -19,7 +19,7 @@ export default defineConfigWithVueTs(
   },
   ...pluginVue.configs['flat/recommended'],
   vueTsConfigs.recommended,
-  ...vuetify.configs['flat/recommended'],
+  ...vuetify,
   stylistic.configs.customize({
     flat: true, // required for flat config
   }),
