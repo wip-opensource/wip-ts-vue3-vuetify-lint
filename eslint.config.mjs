@@ -25,6 +25,7 @@ export default defineConfigWithVueTs(
   }),
   {
     rules: {
+      'vue/script-indent': 'off',
       'vue/no-template-shadow': ['error', { allow: ['props'] }],
       'vue/multi-word-component-names': 'off',
       '@typescript-eslint/no-unused-vars': [
